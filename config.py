@@ -17,7 +17,7 @@ load_dotenv(PROJECT_ROOT / ".env")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # LLM Settings
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-3-flash-preview"
 MAX_RETRIES = 3
 RETRY_DELAY = 2
 
